@@ -10213,12 +10213,12 @@ h1, h2, h3, h4, h5, h6 {
 /*chat and call*/
 
 .footer-share-kmy {
-background:#fff;
+/* background:#fff; */
 position:fixed;
 left:0;
 width:100%;
 z-index:999;
-box-shadow:0 -4px 10px rgba(0, 0, 0, .2);
+/* box-shadow:0 -4px 10px rgba(0, 0, 0, .2); */
 bottom:0
 }
 .footer-share-button a.query-form {
