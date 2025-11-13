@@ -7,7 +7,7 @@ if(isset($_POST["submit"]))
 	$email=$_POST["email"];
 	$subject="Booking Enquiry";
 	$message=$_POST["msg"];	
-    $to="info@themilestonetravels.com";
+    $to="info@themilestonetravels.in";
 
 	// HTML Message Starts here
 	$message = "
@@ -48,9 +48,9 @@ if(isset($_POST["submit"]))
 	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
  
 	// More headers
-	$headers .= 'From: TheMileStoneTravels <info@themilestonetravels.com>' . "\r\n"; // Give an email id on which you want to get a reply. Users will get an email from this email id
-	//$headers .= 'Cc: info@themilestonetravels.com' . "\r\n"; // If you want to add CC
-	//$headers .= 'Bcc: info@themilestonetravels.com' . "\r\n"; // If you want to add Bcc
+	$headers .= 'From: TheMileStoneTravels <info@themilestonetravels.in>' . "\r\n"; // Give an email id on which you want to get a reply. Users will get an email from this email id
+	//$headers .= 'Cc: info@themilestonetravels.in' . "\r\n"; // If you want to add CC
+	//$headers .= 'Bcc: info@themilestonetravels.in' . "\r\n"; // If you want to add Bcc
          
 	if(mail($to, $subject, $message, $headers)){
 		// Message if the mail has been sent
